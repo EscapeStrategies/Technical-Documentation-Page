@@ -1,0 +1,83 @@
+html {
+
+}
+
+body {
+  max-width: 91%;
+  font-size: 18;
+  font-family: Arial;
+}
+
+@media (max-width: 4000px) {
+
+}
+
+#main {
+  max-width: 90%;
+  position: relative;
+  border: 0;
+  left: 279;
+}
+
+#nav {
+  border: 1px solid black;
+  height:2000px;
+  width: 259px;
+  font-size: 1.3rem;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+  text-align: center;
+  position: fixed;
+  margin-top: -10;
+}
+
+.nav-border {
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  margin-left: -10px;
+  margin-right: -1.3px;
+  margin-top: 10;  
+}
+
+a:link, a:active, a:hover, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+p, h3, li, code {
+  margin-left: 30;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  padding-bottom: 30px
+}
+
+.dropbtn {
+  border: 0;
+  background-color: white;
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 15px; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: ;
+  width: 259px;
+}
+
+.dropbtn:hover, dropbtn:focus {
+  background-color: #d3d3d9
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+#timeline {
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: 
+}
